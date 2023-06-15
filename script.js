@@ -4,11 +4,11 @@ const person = {
   name: "John Doe",
   age: 80,
 };
+
+// Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 const team = =players;
 const team1 = [...players];
- let cap1 = {...person};
-// Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
-
+ let cap1 = { ...person };
 window.players = players;
 window.person = person;
 window.team = team;
