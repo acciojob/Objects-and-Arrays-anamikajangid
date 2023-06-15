@@ -4,10 +4,9 @@ const person = {
   name: "John Doe",
   age: 80,
 };
-const team = =players.[i];
-const team1 =players[];
-
- let cap1 = person;
+const team = =players;
+const team1 = [...players];
+ let cap1 = {...person};
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 window.players = players;
